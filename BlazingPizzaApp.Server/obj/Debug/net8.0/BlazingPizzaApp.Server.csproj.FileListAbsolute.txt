@@ -1,0 +1,6 @@
+C:\Users\USER\OneDrive\Desktop\Desktop\BlazingPizzaApp\BlazingPizzaApp.Server\obj\Debug\net8.0\BlazingPizzaApp.Server.csproj.AssemblyReference.cache
+C:\Users\USER\OneDrive\Desktop\Desktop\BlazingPizzaApp\BlazingPizzaApp.Server\obj\Debug\net8.0\BlazingPizzaApp.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\OneDrive\Desktop\Desktop\BlazingPizzaApp\BlazingPizzaApp.Server\obj\Debug\net8.0\BlazingPizzaApp.Server.AssemblyInfoInputs.cache
+C:\Users\USER\OneDrive\Desktop\Desktop\BlazingPizzaApp\BlazingPizzaApp.Server\obj\Debug\net8.0\BlazingPizzaApp.Server.AssemblyInfo.cs
+C:\Users\USER\OneDrive\Desktop\Desktop\BlazingPizzaApp\BlazingPizzaApp.Server\obj\Debug\net8.0\BlazingPizzaApp.Server.csproj.CoreCompileInputs.cache
+C:\Users\USER\OneDrive\Desktop\Desktop\BlazingPizzaApp\BlazingPizzaApp.Server\obj\Debug\net8.0\BlazingPizzaApp.Server.MvcApplicationPartsAssemblyInfo.cache

@@ -1,0 +1,28 @@
+@page "/pizzas"
+@using BlazingPizzaApp.Shared
+@inject HttpClient HttpClient
+
+<h2>Pizza Menu</h2>
+
+@if (pizzas == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <ul>
+    @foreach (var pizza in pizzas)
+    {
+        <li>@pizza.Name - @pizza.Price.ToString("C")</li>
+    }
+    </ul>
+}
+
+@code {
+    private List<Pizza>? pizzas;
+
+    protected override async Task OnInitializedAsync()
+    {
+        pizzas = await HttpClient.GetFromJsonAsync<List<Pizza>>("api/pizzas");
+    }
+}
