@@ -22,34 +22,34 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\USER\OneDrive\Desktop\Desktop\BlazingPizzaApp\BlazingPizzaApp.Client
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/USER/OneDrive/Desktop/Desktop/BlazingPizzaApp/BlazingPizzaApp.Client/App.razor]
+[C:/Users/USER/OneDrive/Desktop/Desktop/BlazingPizzaApp/BlazingPizzaApp.Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USER/OneDrive/Desktop/Desktop/BlazingPizzaApp/BlazingPizzaApp.Client/Pages/Index.razor]
+[C:/Users/USER/OneDrive/Desktop/Desktop/BlazingPizzaApp/BlazingPizzaApp.Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USER/OneDrive/Desktop/Desktop/BlazingPizzaApp/BlazingPizzaApp.Client/Pages/MyOrders.razor]
+[C:/Users/USER/OneDrive/Desktop/Desktop/BlazingPizzaApp/BlazingPizzaApp.Client/Pages/MyOrders.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlPcmRlcnMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USER/OneDrive/Desktop/Desktop/BlazingPizzaApp/BlazingPizzaApp.Client/Pages/OrderDetail.razor]
+[C:/Users/USER/OneDrive/Desktop/Desktop/BlazingPizzaApp/BlazingPizzaApp.Client/Pages/OrderDetail.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJEZXRhaWwucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USER/OneDrive/Desktop/Desktop/BlazingPizzaApp/BlazingPizzaApp.Client/Pages/Pizzas.razor]
+[C:/Users/USER/OneDrive/Desktop/Desktop/BlazingPizzaApp/BlazingPizzaApp.Client/Pages/Pizzas.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGl6emFzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USER/OneDrive/Desktop/Desktop/BlazingPizzaApp/BlazingPizzaApp.Client/_Imports.razor]
+[C:/Users/USER/OneDrive/Desktop/Desktop/BlazingPizzaApp/BlazingPizzaApp.Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/USER/OneDrive/Desktop/Desktop/BlazingPizzaApp/BlazingPizzaApp.Client/Layout/MainLayout.razor]
+[C:/Users/USER/OneDrive/Desktop/Desktop/BlazingPizzaApp/BlazingPizzaApp.Client/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-qbtetofa5h
 
-[c:/Users/USER/OneDrive/Desktop/Desktop/BlazingPizzaApp/BlazingPizzaApp.Client/Layout/NavMenu.razor]
+[C:/Users/USER/OneDrive/Desktop/Desktop/BlazingPizzaApp/BlazingPizzaApp.Client/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-vu3j3gkvu1

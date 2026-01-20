@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ot42fHeJDnU=",
+  "dgSpecHash": "2s7I3QOmxAE=",
   "success": true,
-  "projectFilePath": "c:\\Users\\USER\\OneDrive\\Desktop\\Desktop\\BlazingPizzaApp\\BlazingPizzaApp.Client\\BlazingPizzaApp.Client.csproj",
+  "projectFilePath": "C:\\Users\\USER\\OneDrive\\Desktop\\Desktop\\BlazingPizzaApp\\BlazingPizzaApp.Client\\BlazingPizzaApp.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.17\\microsoft.aspnetcore.authorization.8.0.17.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.17\\microsoft.aspnetcore.components.8.0.17.nupkg.sha512",

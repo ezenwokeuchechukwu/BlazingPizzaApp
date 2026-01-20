@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "BlazingPizzaApp.Client",
   "resources": {
-    "hash": "sha256-7hy8bbxaKAI+3qQDQ4xues0lURVa5L3MpXxnnV/JPm8=",
+    "hash": "sha256-SqZfLykut+FSTR4DSHD0oqDAxUIiUsfH7XCncOpAkds=",
     "jsModuleNative": {
       "dotnet.native.8.0.17.u75ywi2la7.js": "sha256-YyxJV6dv935qHoQAmjB+2qRjHeGpm4SyWxE0T/KvsIE="
     },
@@ -208,12 +208,12 @@
       "mscorlib.wasm": "sha256-flmBXVpp8uDpWBNEJuRkqo3Qnir1KADo5a1rCQISkPs=",
       "netstandard.wasm": "sha256-iuCVrIBmiGbXpNVvYkBmSt16BNEjbbD82vYrtHimftc=",
       "System.Private.CoreLib.wasm": "sha256-1Xa/xaUoA/iRxpDqZPUUzL8QaTawkoJLhGmxtRv9ZJI=",
-      "BlazingPizzaApp.Shared.wasm": "sha256-IxMO6WLRvjhtYaXJYJxLVdF2tNslL7ssKH5oYsmqJ/4=",
-      "BlazingPizzaApp.Client.wasm": "sha256-eaBowsY7Vr5Qly9n6gBoSRVZF7MiR8+SDgPlc95PGoI="
+      "BlazingPizzaApp.Shared.wasm": "sha256-0QJPkfg9L9yUD3IGSj/KfetaoojX5zsbCjBG1dOL/ro=",
+      "BlazingPizzaApp.Client.wasm": "sha256-SKohFCwFmL9ObPa5QOLIq/9fu+ggh6iq1U93p2djR/E="
     },
     "pdb": {
-      "BlazingPizzaApp.Shared.pdb": "sha256-1Eda/iikiqi1Cz3CdhCQawc5HrXUmWYMhTKMuLKZ9so=",
-      "BlazingPizzaApp.Client.pdb": "sha256-du605sTloT7dBVTShe1wXtJNEtV4lLw4Jw47WZgUwk4="
+      "BlazingPizzaApp.Shared.pdb": "sha256-P4XN0jaPp/Bg87myOsE9LFmC9727CTysLI6HizTCXlw=",
+      "BlazingPizzaApp.Client.pdb": "sha256-SbDJMUbFoe5Mw8ZkWNBvF0au+lqUSHcvLu50LXJbBn0="
     }
   },
   "cacheBootResources": true,

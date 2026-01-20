@@ -5,6 +5,7 @@ C:\Users\USER\OneDrive\Desktop\Desktop\BlazingPizzaApp\BlazingPizzaApp.Shared\ob
 C:\Users\USER\OneDrive\Desktop\Desktop\BlazingPizzaApp\BlazingPizzaApp.Shared\obj\Debug\net8.0\BlazingPizzaApp.Shared.AssemblyInfoInputs.cache
 C:\Users\USER\OneDrive\Desktop\Desktop\BlazingPizzaApp\BlazingPizzaApp.Shared\obj\Debug\net8.0\BlazingPizzaApp.Shared.AssemblyInfo.cs
 C:\Users\USER\OneDrive\Desktop\Desktop\BlazingPizzaApp\BlazingPizzaApp.Shared\obj\Debug\net8.0\BlazingPizzaApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\USER\OneDrive\Desktop\Desktop\BlazingPizzaApp\BlazingPizzaApp.Shared\obj\Debug\net8.0\BlazingPizzaApp.Shared.sourcelink.json
 C:\Users\USER\OneDrive\Desktop\Desktop\BlazingPizzaApp\BlazingPizzaApp.Shared\obj\Debug\net8.0\BlazingPizzaApp.Shared.dll
 C:\Users\USER\OneDrive\Desktop\Desktop\BlazingPizzaApp\BlazingPizzaApp.Shared\obj\Debug\net8.0\refint\BlazingPizzaApp.Shared.dll
 C:\Users\USER\OneDrive\Desktop\Desktop\BlazingPizzaApp\BlazingPizzaApp.Shared\obj\Debug\net8.0\BlazingPizzaApp.Shared.pdb
