@@ -1,6 +1,0 @@
-@BlazingPizzaApp.Server_HostAddress = http://localhost:5260
-
-GET {{BlazingPizzaApp.Server_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

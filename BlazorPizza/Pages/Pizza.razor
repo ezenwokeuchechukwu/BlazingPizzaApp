@@ -1,0 +1,52 @@
+@page "/pizza"
+
+<h1>Pizza Menu</h1>
+
+<button class="btn btn-primary" @onclick="GetPizzas">
+    Get Pizza List
+</button>
+
+@if (pizzas == null)
+{
+    <p>No pizzas loaded.</p>
+}
+else
+{
+    <table class="table mt-3">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price (₦)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var pizza in pizzas)
+            {
+                <tr>
+                    <td>@pizza.Name</td>
+                    <td>@pizza.Price.ToString("N2")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<PizzaItem>? pizzas;
+
+    private void GetPizzas()
+    {
+        pizzas = new List<PizzaItem>
+        {
+            new PizzaItem { Name = "Margherita", Price = 2500m },
+            new PizzaItem { Name = "Pepperoni", Price = 3200m },
+            new PizzaItem { Name = "BBQ Chicken", Price = 4000m }
+        };
+    }
+
+    private class PizzaItem
+    {
+        public string Name { get; set; } = string.Empty;
+        public decimal Price { get; set; }
+    }
+}
