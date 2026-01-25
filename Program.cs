@@ -1,0 +1,57 @@
+using BlazingPizza.Data;
+using BlazingPizza.Services;
+using System.Globalization;
+
+
+var builder = WebApplication.CreateBuilder(args);
+
+var culture = new CultureInfo("en-NG");
+CultureInfo.DefaultThreadCurrentCulture = culture;
+CultureInfo.DefaultThreadCurrentUICulture = culture;
+
+builder.Services.AddRazorPages();
+builder.Services.AddServerSideBlazor();
+builder.Services.AddHttpClient();
+builder.Services.AddSqlite<PizzaStoreContext>("Data Source=./pizza.db");
+builder.Services.AddScoped<OrderState>();
+builder.Services.AddLocalization();
+
+
+
+var app = builder.Build();
+
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Error");
+}
+
+var supportedCultures = new[] { "en-NG" };
+
+var localizationOptions = new RequestLocalizationOptions()
+    .SetDefaultCulture("en-NG")
+    .AddSupportedCultures(supportedCultures)
+    .AddSupportedUICultures(supportedCultures);
+
+app.UseRequestLocalization(localizationOptions);
+
+app.UseStaticFiles();
+app.UseRouting();
+
+app.MapRazorPages();
+app.MapBlazorHub();
+app.MapFallbackToPage("/_Host");
+app.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
+
+// Initialize the database
+var scopeFactory = app.Services.GetRequiredService<IServiceScopeFactory>();
+
+using (var scope = scopeFactory.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<PizzaStoreContext>();
+    if (db.Database.EnsureCreated())
+    {
+        SeedData.Initialize(db);
+    }
+}
+
+app.Run();
